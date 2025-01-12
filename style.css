@@ -147,6 +147,34 @@ body {
     font-size: 20px;
     transition: background 0.5s;
 }
+.bugattiPage .BuyButton{
+    position: absolute;
+    top: 25px;
+    left: 280px;
+    padding: 5px 30px;
+    background: #fcca7c;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8); /* Árnyék, hogy jobban kiemelkedjen */
+    text-shadow: 1px 1px 2.5px black, -1px -1px 2.5px black, 1px -1px 2.5px black, -1px 1px 2.5px black;
+    width: 85px;
+    font-size: 20px;
+    transition: background 0.5s;
+}
+.bugattiPage .BuyButton2{
+    position: absolute;
+    top: 25px;
+    left: 270px;
+    padding: 5px 30px;
+    background: #fcca7c;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8); /* Árnyék, hogy jobban kiemelkedjen */
+    text-shadow: 1px 1px 2.5px black, -1px -1px 2.5px black, 1px -1px 2.5px black, -1px 1px 2.5px black;
+    width: 85px;
+    font-size: 20px;
+    transition: background 0.5s;
+}
 .BuyButton:hover{
     background: #c5923d;
 }
@@ -298,6 +326,30 @@ a{
 
 }
 .cartierPage{
+    display: none; /* Ez a div alapból el van rejtve */
+    margin-top: 130px;
+    margin-left: 150px;
+}
+.bugattiPage{
+    display: none; /* Ez a div alapból el van rejtve */
+    margin-top: 130px;
+    margin-left: 150px;
+}
+.jbwPage{
+    display: none; /* Ez a div alapból el van rejtve */
+    margin-top: 130px;
+    margin-left: 150px;
+}
+.apPage{
+    display: none; /* Ez a div alapból el van rejtve */
+    margin-top: 130px;
+    margin-left: 150px;
+}.patekPage{
+    display: none; /* Ez a div alapból el van rejtve */
+    margin-top: 130px;
+    margin-left: 150px;
+}
+.rolexPage{
     display: none; /* Ez a div alapból el van rejtve */
     margin-top: 130px;
     margin-left: 150px;
@@ -664,7 +716,7 @@ button:hover {
     z-index: -1;
 }
 .marketPageOraKep{
-    width: 450px;
+    width: 500px;
     height: auto;
     position: absolute;
     top: 250px;
@@ -673,6 +725,29 @@ button:hover {
 .marketPageOraKep:hover {
     transform: scale(1.05);
 }
+.bugattiPage .marketPageOraKep{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+.jbwPage .marketPageOraKep{
+    width: 480px;
+    height: auto;
+    position: absolute;
+    top: 180px;
+    transition: transform 0.3s ease-in-out;
+}
+.cartierPage .marketPageOraKep{
+    width: 420px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
 .marketOraNev{
     color: white;
     font-size: 45px;
@@ -707,6 +782,21 @@ button:hover {
     background-color: white;
     border: 10px solid transparent;
 }
+.bugattiPage .marketPageBrandKep{
+    width: 300px;
+    height: auto;
+    border: 20px solid transparent;
+    margin-left: -80px;
+    background-color: white;
+
+}
+.bugattiPage .marketPageBrandKep2{
+    width: 250px;
+    height: auto;
+    background-color: white;
+    border: 10px solid transparent;
+    margin-left: -20px;
+}
 
 .market2{
     position: absolute;
@@ -728,6 +818,24 @@ button:hover {
     font-weight: bold;
 }
 .shopNev2{
+    width: 500px;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: -25px;
+    left: 260px;
+    font-weight: bold;
+}
+.bugattiPage .shopNev{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: -25px;
+    left: 270px;
+    font-weight: bold;
+    width: 500px;
+}
+.bugattiPage .shopNev2{
     width: 500px;
     color: white;
     font-size: 30px;
@@ -843,6 +951,27 @@ button:hover {
     font-style: italic;
 
 }
+.bugattiPage .marketÁr{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 560px;
+    width: 200px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.bugattiPage .marketÁr2{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 600px;
+    width: 200px;
+    text-decoration: underline;
+    font-style: italic;
+
+}
 .átváltás{
     color: white;
     font-size: 20px;
@@ -850,7 +979,9 @@ button:hover {
     top: 45px;
     left: 650px;
     width: 200px;
-
+}
+.bugattiPage .market1 .átváltás{
+    left: 580px;
 }
 .page {
     opacity: 0;

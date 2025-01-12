@@ -40,6 +40,8 @@ document.getElementById("gombCatalog").addEventListener("click", function() {
     document.getElementById("homePage").style.display = "none"
     document.getElementById("citizenPage").style.display = "none";
     document.getElementById("cartierPage").style.display = "none";
+    document.getElementById("bugattiPage").style.display = "none";
+    document.getElementById("jbwPage").style.display = "none";
 
     document.getElementById("catalogPage").style.display = "block";
     document.getElementById("alsoHatter").style.display = "block";
@@ -48,6 +50,8 @@ document.getElementById("backGomb").addEventListener("click", function() {
     document.getElementById("homePage").style.display = "none"
     document.getElementById("citizenPage").style.display = "none";
     document.getElementById("cartierPage").style.display = "none";
+    document.getElementById("bugattiPage").style.display = "none";
+    document.getElementById("jbwPage").style.display = "none";
 
     document.getElementById("catalogPage").style.display = "block";
     document.getElementById("alsoHatter").style.display = "block";
@@ -56,6 +60,28 @@ document.getElementById("backGomb2").addEventListener("click", function() {
     document.getElementById("homePage").style.display = "none"
     document.getElementById("citizenPage").style.display = "none";
     document.getElementById("cartierPage").style.display = "none";
+    document.getElementById("bugattiPage").style.display = "none";
+    document.getElementById("jbwPage").style.display = "none";
+
+    document.getElementById("catalogPage").style.display = "block";
+    document.getElementById("alsoHatter").style.display = "block";
+});
+document.getElementById("backGomb3").addEventListener("click", function() {
+    document.getElementById("homePage").style.display = "none"
+    document.getElementById("citizenPage").style.display = "none";
+    document.getElementById("cartierPage").style.display = "none";
+    document.getElementById("bugattiPage").style.display = "none";
+    document.getElementById("jbwPage").style.display = "none";
+
+    document.getElementById("catalogPage").style.display = "block";
+    document.getElementById("alsoHatter").style.display = "block";
+});
+document.getElementById("backGomb4").addEventListener("click", function() {
+    document.getElementById("homePage").style.display = "none"
+    document.getElementById("citizenPage").style.display = "none";
+    document.getElementById("cartierPage").style.display = "none";
+    document.getElementById("bugattiPage").style.display = "none";
+    document.getElementById("jbwPage").style.display = "none";
 
     document.getElementById("catalogPage").style.display = "block";
     document.getElementById("alsoHatter").style.display = "block";
@@ -65,6 +91,8 @@ document.getElementById("homeBuyGomb").addEventListener("click", function() {
     document.getElementById("homePage").style.display = "none";
     document.getElementById("citizenPage").style.display = "none";
     document.getElementById("cartierPage").style.display = "none";
+    document.getElementById("bugattiPage").style.display = "none";
+    document.getElementById("jbwPage").style.display = "none";
 
     document.getElementById("catalogPage").style.display = "block";
     document.getElementById("alsoHatter").style.display = "block";
@@ -75,6 +103,8 @@ document.getElementById("gombHome").addEventListener("click", function() {
     document.getElementById("alsoHatter").style.display = "none";
     document.getElementById("citizenPage").style.display = "none";
     document.getElementById("cartierPage").style.display = "none";
+    document.getElementById("bugattiPage").style.display = "none";
+    document.getElementById("jbwPage").style.display = "none";
 
     document.getElementById("homePage").style.display = "block";
 });
@@ -83,6 +113,8 @@ document.getElementById("citizenKep").addEventListener("click", function() {
     document.getElementById("alsoHatter").style.display = "none";
     document.getElementById("homePage").style.display = "none";
     document.getElementById("cartierPage").style.display = "none";
+    document.getElementById("bugattiPage").style.display = "none";
+    document.getElementById("jbwPage").style.display = "none";
 
     document.getElementById("citizenPage").style.display = "block";
 });
@@ -91,8 +123,30 @@ document.getElementById("cartierKep").addEventListener("click", function() {
     document.getElementById("alsoHatter").style.display = "none";
     document.getElementById("homePage").style.display = "none";
     document.getElementById("citizenPage").style.display = "none";
+    document.getElementById("bugattiPage").style.display = "none";
+    document.getElementById("jbwPage").style.display = "none";
 
     document.getElementById("cartierPage").style.display = "block";
+});
+document.getElementById("bugattiKep").addEventListener("click", function() {
+    document.getElementById("catalogPage").style.display = "none";
+    document.getElementById("alsoHatter").style.display = "none";
+    document.getElementById("homePage").style.display = "none";
+    document.getElementById("citizenPage").style.display = "none";
+    document.getElementById("cartierPage").style.display = "none";
+    document.getElementById("jbwPage").style.display = "none";
+
+    document.getElementById("bugattiPage").style.display = "block";
+});
+document.getElementById("jbwKep").addEventListener("click", function() {
+    document.getElementById("catalogPage").style.display = "none";
+    document.getElementById("alsoHatter").style.display = "none";
+    document.getElementById("homePage").style.display = "none";
+    document.getElementById("citizenPage").style.display = "none";
+    document.getElementById("cartierPage").style.display = "none";
+    document.getElementById("bugattiPage").style.display = "none";
+
+    document.getElementById("jbwPage").style.display = "block";
 });
 
 document.getElementById("logo-image").addEventListener("click", function() {
@@ -100,6 +154,8 @@ document.getElementById("logo-image").addEventListener("click", function() {
     document.getElementById("alsoHatter").style.display = "none";
     document.getElementById("citizenPage").style.display = "none";
     document.getElementById("cartierPage").style.display = "none";
+    document.getElementById("bugattiPage").style.display = "none";
+    document.getElementById("jbwPage").style.display = "none";
 
     document.getElementById("homePage").style.display = "block";
 });
